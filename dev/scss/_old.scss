@@ -1,0 +1,775 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* End Reset */
+@font-face {
+  font-family: 'mulilight';
+  src: url("../../fonts/muli-light-webfont.woff2") format("woff2"), url("../../fonts/muli-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'muliregular';
+  src: url("../../fonts/muli-webfont.woff2") format("woff2"), url("../../fonts/muli-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'oswalddemibold';
+  src: url("../../fonts/oswald-demibold-webfont.woff2") format("woff2"), url("../../fonts/oswald-demibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'oswaldextralight';
+  src: url("../../fonts/oswald-extralight-webfont.woff2") format("woff2"), url("../../fonts/oswald-extralight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Tangerine:400,700');
+
+.initial {
+  background-color: #fff;
+  opacity:1;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:90em;
+  z-index: 10;
+}
+#logo {
+  width: 3.125em;
+  margin: 1em 0 1em 1em; }
+  @media only screen and (min-width: 40em) {
+    #logo {
+      width: 6.25em;
+      margin: 2em 0 2em 2em;
+      transition: all 0.5s ease; }
+      #logo:hover {
+        opacity: 0.5; } }
+  @media only screen and (min-width: 60em) {
+    #logo {
+      margin: 1.6em 0 2em 2em; } }
+
+#logoText {
+  display: none; }
+
+#logoText:hover {
+  margin: 33px;
+  color: #555555; }
+
+.main-nav {
+  float: right;
+  display: none; }
+  @media only screen and (min-width: 40em) {
+    .main-nav {
+      display: inline-block;
+      margin-top: 3.938em; } }
+  .main-nav li {
+    display: inline;
+    margin-right: 6.25em; }
+    @media only screen and (min-width: 40em) {
+      .main-nav li {
+        transition: all 0.5s ease; }
+        .main-nav li:hover {
+          border-bottom: 1px solid #b0b0b4;
+          padding: 7px; } }
+  .main-nav a {
+    text-decoration: none;
+    font-family: "oswaldextralight";
+    font-size: 20px;
+    letter-spacing: 0.220em;
+    color: #b0b0b4;
+    transition: all 0.5s ease; }
+    .main-nav a:hover {
+      color: #333366;
+      cursor: pointer; }
+
+.social {
+  display: none; }
+  @media only screen and (min-width: 60em) {
+    .social {
+      display: inline-block;
+      float: right;
+      margin-top: 3em; } }
+
+.title {
+  color: #555555;
+  font-family: "oswalddemibold";
+  font-size: 41px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  transition: all 0.5s ease; }
+  .title:hover {
+    color: #333366; }
+
+.description {
+  font-family: "mulilight";
+  margin-bottom: 25px;
+  font-size: 14px;
+  color: #999999; }
+
+.contact-box {
+  margin: 0 auto;
+  width: 320px;
+  padding-top: 100px; }
+  @media only screen and (min-width: 40em) {
+    .contact-box {
+      padding-bottom: 100px; } }
+
+.contact-label {
+  font-family: "mulilight";
+  color: #b0b0b4; }
+
+#email, #name, #message {
+  border-radius: 10px;
+  height: 30px;
+  border: solid 1px #ffffff;
+  background-color: #f0efef;
+  width: 320px;
+  color: #555555;
+  display: block;
+  margin: 15px auto;
+  font-family: "mulilight"; }
+
+#message {
+  height: 150px; }
+
+#sendbutton {
+  width: 100px;
+  border: #ffffff solid 4px;
+  border-radius: 10px;
+  background-color: #b0b0b4;
+  color: #ffffff;
+  font-family: "mulilight";
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -4px;
+  float: right;
+  transition: all 0.5s ease; }
+  #sendbutton:hover {
+    background-color: #333366;
+    color: #ffffff;
+    cursor: pointer; }
+
+#headerBack {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  background-image: url(../../images/sgnm-upped-sm.jpg);
+  background-repeat: no-repeat; }
+  @media only screen and (min-width: 40em) {
+    #headerBack {
+      background-image: url(../../images/sgnm-upped-med.jpg); } }
+  @media only screen and (min-width: 60em) {
+    #headerBack {
+      background-image: url(../../images/sgnm-upped.jpg);
+      background-position: center; } }
+
+.stay-put {
+  position: absolute; }
+
+#eight {
+  width: 24em;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  grid-row-start: 5;
+  grid-row-end: 8; }
+  @media only screen and (min-width: 40em) {
+    #eight {
+      width: 40em;
+      grid-column-start: 4; } }
+  @media only screen and (min-width: 60em) {
+    #eight {
+      width: 60em;
+      grid-column-start: 4;
+      grid-row-start: 6; } }
+
+#heading {
+  grid-column-start: 2;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  color: #555; }
+  @media only screen and (min-width: 40em) {
+    #heading {
+      grid-column-end: 6; } }
+  @media only screen and (min-width: 60em) {
+    #heading {
+      grid-row-start: 2; } }
+  #heading h1 {
+    font-size: 2em;
+    font-family: 'Parisienne', cursive;
+    display: inline-block;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em; }
+    @media only screen and (min-width: 40em) {
+      #heading h1 {
+        font-size: 3em;
+        margin-bottom: 0.7em; } }
+    @media only screen and (min-width: 60em) {
+      #heading h1 {
+        font-size: 4.063em; } }
+  #heading h2 {
+    font-size: 1.8em; }
+    @media only screen and (min-width: 60em) {
+      #heading h2 {
+        font-family: "mulilight";
+        font-size: 36px;
+        margin-bottom: 20px;
+        letter-spacing: 4.1px;
+        display: inline-block; } }
+  #heading h3 {
+    margin-bottom: 1.8em; }
+    @media only screen and (min-width: 40em) {
+      #heading h3 {
+        font-size: 1.3em; } }
+    @media only screen and (min-width: 60em) {
+      #heading h3 {
+        font-family: "mulilight";
+        font-size: 1.563em;
+        margin-bottom: 1em; } }
+  #heading h4 {
+    margin-bottom: 1em; }
+    @media only screen and (min-width: 40em) {
+      #heading h4 {
+        font-size: 1.4em; } }
+    @media only screen and (min-width: 60em) {
+      #heading h4 {
+        font-family: "mulilight";
+        font-size: 1.7em;
+        margin-bottom: 10px;
+        display: block; } }
+  #heading #to-portfolio {
+    cursor: pointer;
+    text-align: right; }
+    @media only screen and (min-width: 40em) {
+      #heading #to-portfolio {
+        transition: all 0.5s ease;
+        margin-bottom: 1em; }
+        #heading #to-portfolio:hover {
+          color: #000;
+          margin-left: 5px;
+          font-size: 1.75em; } }
+  #heading #to-contact {
+    text-align: right;
+    cursor: pointer; }
+    @media only screen and (min-width: 40em) {
+      #heading #to-contact {
+        transition: all 0.5s ease; }
+        #heading #to-contact:hover {
+          color: #000;
+          font-size: 1.75em; } }
+
+#sub-head {
+  grid-column-start: 6;
+  grid-column-end: 12;
+  grid-row-start: 6;
+  grid-row-end: 12;
+  color: #555;
+  text-align: left; }
+  @media only screen and (min-width: 40em) {
+    #sub-head {
+      grid-row-start: 7; } }
+  @media only screen and (min-width: 60em) {
+    #sub-head {
+      grid-column-start: 7;
+      grid-row-start: 8;
+      text-align: left; } }
+  #sub-head h2 {
+    font-size: 1.5em;
+    font-family: "oswalddemibold";
+    display: inline-block;
+    margin-bottom: 1em; }
+    @media only screen and (min-width: 40em) {
+      #sub-head h2 {
+        font-size: 2.3em; } }
+    @media only screen and (min-width: 60em) {
+      #sub-head h2 {
+        font-family: "oswalddemibold";
+        font-size: 2.8em;
+        margin-bottom: 1.3em; } }
+  #sub-head h3 {
+    font-family: "mulilight";
+    margin-bottom: 1em; }
+    @media only screen and (min-width: 40em) {
+      #sub-head h3 {
+        font-size: 1.3em; } }
+    @media only screen and (min-width: 60em) {
+      #sub-head h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px; } }
+  @media only screen and (min-width: 40em) {
+    #sub-head h4 {
+      font-size: 1.3em; } }
+  @media only screen and (min-width: 60em) {
+    #sub-head h4 {
+      font-family: "mulilight";
+      font-size: 1.5em; } }
+
+#portfolio {
+  clear: both;
+  padding-top: 6.25em; }
+
+.pTitle {
+  font-family: "oswalddemibold";
+  font-size: 4em;
+  text-align: center;
+  color: #555;
+  letter-spacing: 2px; }
+  @media only screen and (min-width: 40em) {
+    .pTitle {
+      font-family: "oswaldextralight";
+      letter-spacing: 0.4em;
+      margin-right: -0.4em; } }
+  @media only screen and (min-width: 60em) {
+    .pTitle {
+      font-size: 60px;
+      letter-spacing: 50px;
+      margin-right: -50px;
+      margin-bottom: 50px;
+      color: #555555;
+      margin-top: 70px; } }
+
+#portfolio-menu {
+  width: 375px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; }
+  #portfolio-menu h2 {
+    margin: 30px;
+    font-size: 1.8em; }
+
+#development, #design, #artwork {
+  display: inline;
+  font-family: "oswaldextralight";
+  font-size: 3em;
+  color: #cccccc;
+  transition: all 0.5s ease;
+  width: 375px;
+  text-align: center; }
+  @media only screen and (min-width: 40em) {
+    #development, #design, #artwork {
+      display: inline;
+      font-family: "oswaldextralight";
+      font-size: 25px;
+      color: #cccccc;
+      transition: all 0.5s ease; }
+      #development:hover, #design:hover, #artwork:hover {
+        border-bottom: 1px solid #333366;
+        padding-bottom: 10px;
+        color: #555555;
+        cursor: pointer;
+        font-size: 26px; } }
+
+#development-page, #design-page {
+  margin: 0 auto;
+  padding-bottom: 3em;
+  text-align: center; }
+  @media only screen and (min-width: 60em) {
+    #development-page, #design-page {
+      margin: 0 auto;
+      text-align: center; } }
+
+#design {
+  margin-left: 0; }
+
+#artwork {
+  margin-left: 0;
+  margin-right: 0; }
+
+.greyBack {
+  background-color: #f0efef; }
+
+.portGrid {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column; }
+  @media only screen and (min-width: 40em) {
+    .portGrid {
+      flex-direction: row;
+      justify-content: flex-start;
+      max-width: 65.688em;
+      margin: 0 auto; } }
+
+.scrollingSide {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 28.125em;
+  margin: 0 auto; }
+  @media only screen and (min-width: 40em) {
+    .scrollingSide {
+      overflow: auto;
+      height: 28.125em;
+      order: inherit; } }
+
+.staticSide {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center; }
+  @media only screen and (min-width: 40em) {
+    .staticSide {
+      display: flex;
+      flex-direction: column;
+      order: inherit; } }
+
+.small-block {
+  width: 19.563em;
+  margin-right: 1.875em;
+  display: inline; }
+  @media only screen and (min-width: 40em) {
+    .small-block {
+      width: 19.563em;
+      margin-right: 1.875em;
+      display: inline; } }
+
+@media only screen and (min-width: 40em) {
+  .large-block {
+    width: 43.438em;
+    height: 28.125em;
+    margin-bottom: 1.875em;
+    display: inline-block;
+    vertical-align: top; }
+    .large-block:nth-child(even) {
+      margin-left: 0;
+      margin-right: 1.875em; } }
+
+.clientLogo {
+  width: 12.5em; }
+
+.info {
+  margin: 0 auto; }
+  .info h4 {
+    color: #555555;
+    font-size: 40px;
+    text-align: left;
+    margin: 20px;
+    margin-top: 100px; }
+  .info h5 {
+    color: #f8f8f8;
+    color: #555555;
+    font-family: "oswaldextralight";
+    font-size: 20px;
+    text-align: left;
+    margin: 20px; }
+  .info p {
+    color: #f8f8f8;
+    color: #555555;
+    font-family: "mulilight";
+    font-size: 15px;
+    text-align: left;
+    margin: 20px;
+    margin-bottom: 40px; }
+
+@media only screen and (min-width: 60em) {
+  #artwork-page {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1366px;
+    height: 3000px;
+    position: relative;
+    display: none; }
+  #walking {
+    position: absolute;
+    top: 300px;
+    left: 1040px;
+    height: 434px;
+    width: 236px;
+    overflow: hidden;
+    background-image: url(../../images/art_walking.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+  #ashley {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    height: 320px;
+    width: 488px;
+    overflow: hidden;
+    background-image: url(../../images/art_ashley.jpg);
+    background-position: -10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+  #christine {
+    position: absolute;
+    top: 600px;
+    left: 150px;
+    height: 223px;
+    width: 483px;
+    overflow: hidden;
+    background-image: url(../../images/art_christine.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+  #purpleDress {
+    position: absolute;
+    top: 950px;
+    left: 636px;
+    height: 708px;
+    width: 668px;
+    overflow: hidden;
+    background-image: url(../../images/art_purpleDress.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+  #profile {
+    position: absolute;
+    top: 1550px;
+    left: 120px;
+    height: 1125px;
+    width: 462px;
+    overflow: hidden;
+    background-image: url(../../images/art_profile.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+  #greenDress {
+    position: absolute;
+    top: 2000px;
+    left: 950px;
+    height: 1427px;
+    width: 281px;
+    overflow: hidden;
+    background-image: url(../../images/art_greenDress.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+  .backwhite {
+    position: absolute; }
+    .backwhite:last-child {
+      left: 900px;
+      z-index: -3; } }
+
+.card {
+  width: 20em;
+  padding: 1.25em;
+  background-color: #555555;
+  color: #fff;
+  display: inline-block;
+  overflow: hidden;
+  margin: 1.5em auto; }
+  @media only screen and (min-width: 40em) {
+    .card {
+      margin: 1.5em; } }
+  .card img {
+    width: 17.5em;
+    margin: 1.25em auto; }
+  .card h3 {
+    font-style: "oswaldextralight";
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1em; }
+  .card p {
+    font-style: "mulilight";
+    font-size: 1em;
+    text-align: left;
+    margin-bottom: 1em; }
+    @media only screen and (min-width: 40em) {
+      .card p {
+        font-size: 15px; } }
+  .card a {
+    font-style: "oswalddemibold";
+    font-size: 15px;
+    margin-right: 20px;
+    display: inline;
+    text-align: right;
+    vertical-align: bottom;
+    display: block;
+    transition: all 0.5s ease; }
+    .card a:hover {
+      font-size: 16px;
+      font-weight: 900; }
+
+.center {
+  width: 23.438em;
+  display: inline-block;
+  margin: 0 auto; }
+  @media only screen and (min-width: 40em) {
+    .center {
+      width: 51.3em;
+      display: inline-block;
+      margin: 0 auto; } }
+
+.summerLEDC {
+  margin: 0.5em auto;
+  font-family: "oswalddemibold";
+  color: #fff;
+  font-size: 2.3em;
+  text-align: center; }
+
+#design-page {
+  display: none; }
+
+.i-love-lightboxes {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.98); }
+  .i-love-lightboxes img {
+    margin-top: 5em; }
+
+.close-box {
+  float: right;
+  margin-right: 1.1em;
+  margin-top: 1em;
+  font-size: 2em;
+  cursor: pointer; }
+
+.this-looks-great {
+  display: block;
+  padding: 0.8em;
+  border: 1px solid #555;
+  margin: 0 auto; }
+
+.lightbox-desc {
+  display: block;
+  text-align: center;
+  font-size: 3em;
+  color: #ccc;
+  margin-top: 2em; }
+
+.hidden {
+  display: none; }
+
+body {
+  font-family: "mulilight";
+  font-size: 14px; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+#container {
+  width: 100%; }
+  @media only screen and (min-width: 40em) {
+    #container {
+      width: 100%; } }
+  @media only screen and (min-width: 60em) {
+    #container {
+      width: 100%; } }
+
+footer {
+  clear: both;
+  width: 100%;
+  height: 8em;
+  margin-top: 9em;
+  padding-bottom: 15px; }
+  @media only screen and (min-width: 40em) {
+    footer {
+      margin-top: 9em;
+      height: 3em; } }
+  @media only screen and (min-width: 60em) {
+    footer {
+      margin-top: 9em;
+      height: 4em; } }
+
+.footer-nav {
+  background-color: #fff;
+  padding: 25px;
+  display: block; }
+  @media only screen and (min-width: 40em) {
+    .footer-nav {
+      display: inline-block; } }
+  @media only screen and (min-width: 60em) {
+    .footer-nav {
+      display: inline-block; } }
+  .footer-nav li {
+    display: inline;
+    margin-right: 40px; }
+  .footer-nav a {
+    text-decoration: none;
+    font-family: "oswaldextralight";
+    font-size: 15px;
+    letter-spacing: 0.220em;
+    color: #b0b0b4; }
+
+.cright {
+  display: inline-block;
+  text-align: right;
+  color: #b0b0b4;
+  padding-left: 1.5em;
+  padding-top: 1.2em; }
+  @media only screen and (min-width: 40em) {
+    .cright {
+      padding-top: 0; } }
+
+.linkedIn, .twitter, .instagram {
+  float: right;
+  vertical-align: bottom;
+  text-align: left;
+  padding-right: 0.5em; }
+
+.instagram {
+  padding-right: 1.5em; }
+
+.thankyou {
+  background-color: #f0efef;
+  padding:40px;
+  color: #555555;
+  /*width:320px;*/
+  margin:20px; }
+  .thankyou h1 {
+    font-size: 40px;
+    margin:10px;
+    margin-bottom:20px; }
+  .thankyou h2 {
+    font-family: "mulilight";
+    font-size: 25px;
+    margin:10px; }
+  .thankyou h2 a {
+  text-decoration: none; }
+  .thankyou h2:last-child{
+  margin-top:40px; }

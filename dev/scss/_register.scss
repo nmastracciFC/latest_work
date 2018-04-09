@@ -1,0 +1,52 @@
+#register-section {
+  background-color: #fff;
+  //min-height: 100vh;
+  text-align: center;
+
+  h2 {
+    color: $black;
+    font-size: 4.75em;
+    margin: 0.5em;
+    border-bottom: 4px solid $yellow;
+  }
+  p {
+    font-size: 1.3em;
+    padding: 0 1.2em 1em 1.2em;
+  }
+  .process-steps {
+    height: 17.5em;
+    text-align: left;
+    display: inline-block;
+    h3 {
+      color: $yellow;
+      font-size: 17em;
+      float: left;
+      margin-left: 20px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,.6);
+    }
+    div {
+      float: left;
+      img {
+        max-width: 100px;
+        margin: 30px 0 10px 40px;
+      }
+      h4 {
+        width: 200px;
+        font-size: 22px;
+        margin: 10px 0 5px 40px;
+        a {
+          text-decoration: none;
+          color: #000;
+          border-bottom: 1px solid #000;
+        }
+      }
+      p {
+        font-size: 16px;
+        margin-left: 40px;
+        width: 200px;
+        padding: 0;
+      }
+    }
+  }
+
+}

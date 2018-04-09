@@ -1,0 +1,108 @@
+@import '_reset';
+@import '_fonts';
+@import '_globals';
+@import '_mixins';
+@import '_header';
+@import '_myths';
+@import '_adminLogin';
+@import '_register';
+@import '_contact';
+@import '_community';
+@import '_footer';
+@import '_thankyou';
+@import '_old';
+
+// development sass
+body {
+	font-family: $body;
+	background-color: $yellow;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: $title;
+}
+p {
+	font-family: $body;
+}
+
+.homesection{
+	&.flex{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	min-height: 100vh;
+}
+.go-away {
+	display: none;
+	
+}
+.underline {
+	border-bottom: 0.2em $yellow solid;
+	display: inline-block;
+}
+.selected {
+	transform: scale(1.2);
+	transition: all .3s ease-in-out;
+}
+.footer {
+	padding: 2.5em;
+	font-family: $body;
+	color: #000;
+	text-align: center;
+	ul {
+		display: inline-block;
+		margin-bottom: 1em;
+		@include medium-up {
+			float: left;
+			font-size: 1.25em;
+		}
+	}
+	ul:nth-child(2) {
+		clear: left;
+		font-size: 1em;
+		li {
+			border-right: 1px solid #000;
+			padding: 0 1em;
+			&:first-child {
+				padding-left: 0.5em;
+			}
+			&:last-child {
+				border-right: none;
+			}
+		}
+	}
+	li {
+		display: inline-block;
+		padding: 0.5em;
+	}
+	a {
+		text-decoration: none;
+		font-family: $body;
+		color: #000;
+		transition: all 0.5s ease;
+	}
+	a:hover {
+		color: #fff;
+	}
+	#social-icons {
+		margin: 1em auto;
+		a {
+			display: inline-block;
+			margin: 0.5em;
+			img {
+				height: 45px;
+				width: 45px;
+			}
+		}
+		@include medium-up {
+			text-align: right;
+		}
+	}
+	span {
+		clear: right;
+		float: right;
+		font-size: 0.8em;
+		padding: 0.6em;
+	}
+}

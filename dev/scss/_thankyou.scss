@@ -1,0 +1,26 @@
+.thankyou {
+	font-family: $body;
+	margin: 3em;
+
+	h1 {
+		font-family: $body;
+		font-size:1.5em;
+		margin-bottom: 1.3em;
+	}
+	h3 {
+		font-family: $body;
+		font-size:1em;
+	}
+	a {
+		font-family: $body;
+		text-decoration: none;
+		color: #000;
+		font-family: $title;
+		font-size: 1.8em;
+		transition:all 0.5s ease;
+		&:hover {
+			font-size: 2em;
+		}
+
+	}
+}

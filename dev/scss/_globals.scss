@@ -1,0 +1,29 @@
+// For all sass variables -- Please group like variable together with a commented header
+
+
+// COLOURS
+$yellow: #FFBB33;
+$black:#000;
+
+// FONTS
+$title: 'kg_dancing_on_the_rooftopRg', sans-serif;
+$body: 'univers_57_condensedregular', sans-serif;
+
+
+%one-line{
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+}
+
+%clearfix{
+  &:after{
+    content:'';
+    width:0;
+    height:0;
+    clear: both;
+    visibility: hidden;
+    display: block;
+    opacity: 0;
+  }
+}

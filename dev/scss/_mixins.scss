@@ -1,0 +1,40 @@
+// for all sass functions -- please comment a title for each
+
+
+
+
+//VENDOR PREFIXES
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+
+  #{$property}: $value;
+}
+
+//MEDIA QUERIES
+@mixin large-up {
+  @media only screen and (min-width: 60em) {//+960px
+    @content;
+  }
+}
+
+@mixin medium-up {
+  @media only screen and (min-width: 40em) {//+640px
+    @content;
+  }
+}
+
+@mixin medium-down {
+  @media only screen and (max-width: 60em) {//+640px
+    @content;
+  }
+}
+
+@mixin small-only {
+  @media only screen and (max-width: 40em) {//-640px
+    @content;
+  }
+}
+
+//ex: @include large-up { background-color:red;  }
