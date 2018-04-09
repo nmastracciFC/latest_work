@@ -27,8 +27,10 @@ if (isset($_POST['name'])) {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name=”description” content=”Portfolio of Web Designer Natalie Mastracci“>
 	<title>Natalie Mastracci</title>
 	<link href="https://fonts.googleapis.com/css?family=Parisienne|Tangerine:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="prod/css/styles.css">
 
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
@@ -146,6 +148,13 @@ if (isset($_POST['name'])) {
 				<img class="data-ref" src="images/logo_parker-white.svg" alt="Parker Clothing Logo">
 				<h3>Front End Dev</h3>
 				<p>With javascript turned off in the browser this site still works seamlessly.  Developed purely with HTML and CSS this website serves as a tribute to CSS3 transitions. Illustrator and Photoshop were used to create all graphic content.</p>
+				<a href="parker/index.html" target="_blank" rel="noopener">SEE FULL SITE</a>
+			</div>
+
+			<div class="card">
+				<img  src="images/logo_zou.svg" alt="Zou Lipstick Logo">
+				<h3>Back End Dev</h3>
+				<p>Tasked with the problem of how to build a secure CMS this admin page has a secure login where users may add subscribers and view their updated inventory. Written with php using a mySQL database.</p>
 				<a href="parker/index.html" target="_blank" rel="noopener">SEE FULL SITE</a>
 			</div>
 			

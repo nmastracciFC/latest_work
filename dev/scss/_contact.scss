@@ -1,68 +1,76 @@
-#contact-section {
-  background-color: #000;
-  text-align: center;
-  min-height: 300px;
-  padding: 3em 0;
-  h2 {
-    color: #fff;
-    font-size: 4.75em;
-    margin: 0.5em;
-    border-bottom: 3px solid $yellow;
-    display: inline;
-  }
-  p {
-    color: #fff;
-    padding: 1em;
-    font-size: 1.15em;
-    line-height: 1.5em;
-    margin: 1em 0 2em 0;
-    @include medium-up {
-      font-size: 1.25em;
-    }
-  }
-  label {
-    color: #fff;
-    font-family: $body;
-    font-size: 1.15em;
-    padding-right: 1em;
-  }
-  input {
-    width: 60%;
-    font-size:1em;
-    background-color: transparent;
-    border:transparent;
-    border-bottom: 0.2em #fff solid;
-    font-family: $body;
-    margin-bottom: 3em;
-    padding:0.5em 1em;
-    color: #fff;
-  }
-  textarea {
-    width: 60%;
-    height: 65px;
-    font-size: 1em;
-    background-color: transparent;
-    border: transparent;
-    border-bottom: 0.2em #fff solid;
-    font-family: $body;
-    padding: 0 1em;
-    color: #fff;
-  }
-  button {
-    color: #000;
-    font-family: $title;
-    font-size: 1.8em;
-    border: transparent;
-    border-radius: 0.2em;
-    padding: 0.5em 1em 0.45em 2.2em;
-    margin-top:1em;
-    transition: all 0.5s ease;
-    background: $yellow url(../../images/misc/paper-plane.png) 20px 9px no-repeat;
-    background-size: 35px 35px;
-  }
-  button:hover {
-    background-color: #fff;
-    color: #000;
-    border: 0.1em solid $yellow;
-  }
+.title {
+	color: $maincolor;
+	font-family: $fontfamilythick;
+	font-size: 41px;
+	margin-top: 70px;
+	margin-bottom:20px;
+	transition: all 0.5s ease;
+	&:hover {
+		color:	#333366;
+	}
+}
+
+.description {
+	font-family: $fontfamilybody;
+	margin-bottom: 25px;
+	font-size: 14px;
+	color: #999999;
+
+}
+
+.contact-box {
+	margin: 0 auto;
+	width: 320px;
+	padding-top:100px;
+	@include medium-up {
+		padding-bottom:100px;
+	}
+	
+}
+.contact-label {
+	font-family: $fontfamilybody;
+	color: $navcolor;
+	
+}
+
+#email {
+	border-radius: 10px;
+	height: 30px;
+	border: solid 1px #ffffff;
+	background-color: $portfolioback;
+	width: 320px;
+	color: $maincolor;
+	display: block;
+	margin: 15px auto;
+	font-family: $fontfamilybody;
+}
+#name {
+	@extend #email;
+	
+}
+
+#message {
+	@extend #email;
+	height: 150px;
+
+}
+
+#sendbutton {
+  width: 100px;
+  border: #ffffff solid 4px;
+  border-radius: 10px;
+  background-color: $navcolor;
+  color:#ffffff;
+  font-family: $fontfamilybody;
+  font-size:15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:-4px;
+  float: right;
+  transition: all 0.5s ease;
+  &:hover{
+  	background-color: #333366;
+  	color: #ffffff;
+  	cursor: pointer;
+	}
 }

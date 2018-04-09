@@ -1,29 +1,27 @@
-// For all sass variables -- Please group like variable together with a commented header
+$greytext: #ccc;
+$gold: #cfb171;
+$mainbgcolor: #999;
+$plaintext:#fff;
+$fonts:arial;
+$navcolor: #b0b0b4;
+$maincolor: #555555;
+$purple: #333366;
+$barelythere: #f8f8f8;
+$portfolioback: #f0efef;
+$laravel: #636b6f;
+$coral: #ff674f;
+$fire: #fe0b37;
 
+$darkdustyrose:#693F44;
 
-// COLOURS
-$yellow: #FFBB33;
-$black:#000;
-
-// FONTS
-$title: 'kg_dancing_on_the_rooftopRg', sans-serif;
-$body: 'univers_57_condensedregular', sans-serif;
-
-
-%one-line{
-  overflow: hidden !important;
-  white-space: nowrap !important;
-  text-overflow: ellipsis !important;
-}
-
-%clearfix{
-  &:after{
-    content:'';
-    width:0;
-    height:0;
-    clear: both;
-    visibility: hidden;
-    display: block;
-    opacity: 0;
-  }
-}
+// $fontfamilythin: "Acumin Pro Condensed", Acumin Pro Condensed;
+$fontfamilythick:'butler_stencilextrabold';
+ $fontfamilythin:'Reem Kufi', sans-serif;
+ // $fontfamilythin:'oswaldextralight';
+// $fontfamilythick: 'oswalddemibold';
+// $fontfamilybody: 'mulilight';
+$fontfamilybody: 'Reem Kufi', sans-serif;
+$fontfamilybodythick:'Reem Kufi', sans-serif;
+// $fontfamilybodythick: 'muliregular';
+// $almostwhite: #f6f6f6;
+$almostwhite: #dbdbdb;

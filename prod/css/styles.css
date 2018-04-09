@@ -1,4 +1,5 @@
 /* Reset */
+@import url("https://fonts.googleapis.com/css?family=Reem+Kufi");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -67,18 +68,18 @@ table {
   font-weight: normal;
   font-style: normal; }
 
-@import url('https://fonts.googleapis.com/css?family=Parisienne|Tangerine:400,700');
+@font-face {
+  font-family: 'butler_stencilextrabold';
+  src: url("../../fonts/butler_bold_stencil-webfont.woff2") format("woff2"), url("../../fonts/butler_bold_stencil-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 
-.initial {
-  background-color: #fff;
-  opacity:1;
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:90em;
-  z-index: 10;
-}
+@font-face {
+  font-family: 'butler_stencillight';
+  src: url("../../fonts/butler_light_stencil-webfont.woff2") format("woff2"), url("../../fonts/butler_light_stencil-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 #logo {
   width: 3.125em;
   margin: 1em 0 1em 1em; }
@@ -118,7 +119,7 @@ table {
           padding: 7px; } }
   .main-nav a {
     text-decoration: none;
-    font-family: "oswaldextralight";
+    font-family: "Reem Kufi", sans-serif;
     font-size: 20px;
     letter-spacing: 0.220em;
     color: #b0b0b4;
@@ -137,7 +138,7 @@ table {
 
 .title {
   color: #555555;
-  font-family: "oswalddemibold";
+  font-family: "butler_stencilextrabold";
   font-size: 41px;
   margin-top: 70px;
   margin-bottom: 20px;
@@ -146,7 +147,7 @@ table {
     color: #333366; }
 
 .description {
-  font-family: "mulilight";
+  font-family: "Reem Kufi", sans-serif;
   margin-bottom: 25px;
   font-size: 14px;
   color: #999999; }
@@ -160,7 +161,7 @@ table {
       padding-bottom: 100px; } }
 
 .contact-label {
-  font-family: "mulilight";
+  font-family: "Reem Kufi", sans-serif;
   color: #b0b0b4; }
 
 #email, #name, #message {
@@ -172,7 +173,7 @@ table {
   color: #555555;
   display: block;
   margin: 15px auto;
-  font-family: "mulilight"; }
+  font-family: "Reem Kufi", sans-serif; }
 
 #message {
   height: 150px; }
@@ -183,7 +184,7 @@ table {
   border-radius: 10px;
   background-color: #b0b0b4;
   color: #ffffff;
-  font-family: "mulilight";
+  font-family: "Reem Kufi", sans-serif;
   font-size: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -243,7 +244,7 @@ table {
       grid-row-start: 2; } }
   #heading h1 {
     font-size: 2em;
-    font-family: 'Parisienne', cursive;
+    font-family: "butler_stencilextrabold";
     display: inline-block;
     margin-top: 0.3em;
     margin-bottom: 0.3em; }
@@ -258,7 +259,7 @@ table {
     font-size: 1.8em; }
     @media only screen and (min-width: 60em) {
       #heading h2 {
-        font-family: "mulilight";
+        font-family: "Reem Kufi", sans-serif;
         font-size: 36px;
         margin-bottom: 20px;
         letter-spacing: 4.1px;
@@ -270,7 +271,7 @@ table {
         font-size: 1.3em; } }
     @media only screen and (min-width: 60em) {
       #heading h3 {
-        font-family: "mulilight";
+        font-family: "Reem Kufi", sans-serif;
         font-size: 1.563em;
         margin-bottom: 1em; } }
   #heading h4 {
@@ -280,7 +281,7 @@ table {
         font-size: 1.4em; } }
     @media only screen and (min-width: 60em) {
       #heading h4 {
-        font-family: "mulilight";
+        font-family: "Reem Kufi", sans-serif;
         font-size: 1.7em;
         margin-bottom: 10px;
         display: block; } }
@@ -322,7 +323,7 @@ table {
       text-align: left; } }
   #sub-head h2 {
     font-size: 1.5em;
-    font-family: "oswalddemibold";
+    font-family: "butler_stencilextrabold";
     display: inline-block;
     margin-bottom: 1em; }
     @media only screen and (min-width: 40em) {
@@ -330,11 +331,11 @@ table {
         font-size: 2.3em; } }
     @media only screen and (min-width: 60em) {
       #sub-head h2 {
-        font-family: "oswalddemibold";
+        font-family: "butler_stencilextrabold";
         font-size: 2.8em;
         margin-bottom: 1.3em; } }
   #sub-head h3 {
-    font-family: "mulilight";
+    font-family: "Reem Kufi", sans-serif;
     margin-bottom: 1em; }
     @media only screen and (min-width: 40em) {
       #sub-head h3 {
@@ -348,7 +349,7 @@ table {
       font-size: 1.3em; } }
   @media only screen and (min-width: 60em) {
     #sub-head h4 {
-      font-family: "mulilight";
+      font-family: "Reem Kufi", sans-serif;
       font-size: 1.5em; } }
 
 #portfolio {
@@ -356,14 +357,14 @@ table {
   padding-top: 6.25em; }
 
 .pTitle {
-  font-family: "oswalddemibold";
+  font-family: "butler_stencilextrabold";
   font-size: 4em;
   text-align: center;
   color: #555;
   letter-spacing: 2px; }
   @media only screen and (min-width: 40em) {
     .pTitle {
-      font-family: "oswaldextralight";
+      font-family: "Reem Kufi", sans-serif;
       letter-spacing: 0.4em;
       margin-right: -0.4em; } }
   @media only screen and (min-width: 60em) {
@@ -386,7 +387,7 @@ table {
 
 #development, #design, #artwork {
   display: inline;
-  font-family: "oswaldextralight";
+  font-family: "Reem Kufi", sans-serif;
   font-size: 3em;
   color: #cccccc;
   transition: all 0.5s ease;
@@ -395,7 +396,7 @@ table {
   @media only screen and (min-width: 40em) {
     #development, #design, #artwork {
       display: inline;
-      font-family: "oswaldextralight";
+      font-family: "Reem Kufi", sans-serif;
       font-size: 25px;
       color: #cccccc;
       transition: all 0.5s ease; }
@@ -496,14 +497,14 @@ table {
   .info h5 {
     color: #f8f8f8;
     color: #555555;
-    font-family: "oswaldextralight";
+    font-family: "Reem Kufi", sans-serif;
     font-size: 20px;
     text-align: left;
     margin: 20px; }
   .info p {
     color: #f8f8f8;
     color: #555555;
-    font-family: "mulilight";
+    font-family: "Reem Kufi", sans-serif;
     font-size: 15px;
     text-align: left;
     margin: 20px;
@@ -604,12 +605,12 @@ table {
     width: 17.5em;
     margin: 1.25em auto; }
   .card h3 {
-    font-style: "oswaldextralight";
+    font-style: "Reem Kufi", sans-serif;
     font-size: 1.5em;
     text-align: center;
     margin-bottom: 1em; }
   .card p {
-    font-style: "mulilight";
+    font-style: "Reem Kufi", sans-serif;
     font-size: 1em;
     text-align: left;
     margin-bottom: 1em; }
@@ -617,7 +618,7 @@ table {
       .card p {
         font-size: 15px; } }
   .card a {
-    font-style: "oswalddemibold";
+    font-style: "butler_stencilextrabold";
     font-size: 15px;
     margin-right: 20px;
     display: inline;
@@ -641,9 +642,11 @@ table {
 
 .summerLEDC {
   margin: 0.5em auto;
-  font-family: "oswalddemibold";
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-style: normal;
   color: #fff;
-  font-size: 2.3em;
+  font-size: 2em;
   text-align: center; }
 
 #design-page {
@@ -685,7 +688,7 @@ table {
   display: none; }
 
 body {
-  font-family: "mulilight";
+  font-family: "Reem Kufi", sans-serif;
   font-size: 14px; }
 
 a {
@@ -731,7 +734,7 @@ footer {
     margin-right: 40px; }
   .footer-nav a {
     text-decoration: none;
-    font-family: "oswaldextralight";
+    font-family: "Reem Kufi", sans-serif;
     font-size: 15px;
     letter-spacing: 0.220em;
     color: #b0b0b4; }
@@ -754,22 +757,3 @@ footer {
 
 .instagram {
   padding-right: 1.5em; }
-
-.thankyou {
-  background-color: #f0efef;
-  padding:40px;
-  color: #555555;
-  /*width:320px;*/
-  margin:20px; }
-  .thankyou h1 {
-    font-size: 40px;
-    margin:10px;
-    margin-bottom:20px; }
-  .thankyou h2 {
-    font-family: "mulilight";
-    font-size: 25px;
-    margin:10px; }
-  .thankyou h2 a {
-  text-decoration: none; }
-  .thankyou h2:last-child{
-  margin-top:40px; }

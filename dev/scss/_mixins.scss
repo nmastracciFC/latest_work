@@ -1,6 +1,3 @@
-// for all sass functions -- please comment a title for each
-
-
 
 
 //VENDOR PREFIXES
@@ -11,30 +8,21 @@
 
   #{$property}: $value;
 }
-
-//MEDIA QUERIES
+//RESPOND
 @mixin large-up {
-  @media only screen and (min-width: 60em) {//+960px
+  @media only screen and (min-width: 60em) {
     @content;
   }
 }
 
 @mixin medium-up {
-  @media only screen and (min-width: 40em) {//+640px
-    @content;
-  }
-}
-
-@mixin medium-down {
-  @media only screen and (max-width: 60em) {//+640px
+  @media only screen and (min-width: 40em) {
     @content;
   }
 }
 
 @mixin small-only {
-  @media only screen and (max-width: 40em) {//-640px
+  @media only screen and (max-width: 40em) {
     @content;
   }
 }
-
-//ex: @include large-up { background-color:red;  }

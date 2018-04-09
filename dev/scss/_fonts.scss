@@ -1,17 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
 
 @font-face {
-    font-family: 'kg_dancing_on_the_rooftopRg';
-    src: url('../../fonts/kgdancingontherooftop-webfont.woff2') format('woff2'),
-         url('../../fonts/kgdancingontherooftop-webfont.woff') format('woff');
+    font-family: 'mulilight';
+    src: url('../../fonts/muli-light-webfont.woff2') format('woff2'),
+         url('../../fonts/muli-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
+
+
+
 @font-face {
-    font-family: 'univers_57_condensedregular';
-    src: url('../../fonts/univers-condensed-webfont.woff2') format('woff2'),
-         url('../../fonts/univers-condensed-webfont.woff') format('woff');
+    font-family: 'muliregular';
+    src: url('../../fonts/muli-webfont.woff2') format('woff2'),
+         url('../../fonts/muli-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswalddemibold';
+    src: url('../../fonts/oswald-demibold-webfont.woff2') format('woff2'),
+         url('../../fonts/oswald-demibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldextralight';
+    src: url('../../fonts/oswald-extralight-webfont.woff2') format('woff2'),
+         url('../../fonts/oswald-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'butler_stencilextrabold';
+    src: url('../../fonts/butler_bold_stencil-webfont.woff2') format('woff2'),
+         url('../../fonts/butler_bold_stencil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butler_stencillight';
+    src: url('../../fonts/butler_light_stencil-webfont.woff2') format('woff2'),
+         url('../../fonts/butler_light_stencil-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
