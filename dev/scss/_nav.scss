@@ -1,33 +1,32 @@
-#logo {
-	width:3.125em;
-	margin: 1em 0 1em 1em;	
-	@include medium-up {
-	width:6.25em;
-	margin: 2em 0 2em 2em;	
-	transition: all 0.5s ease;
-	&:hover {
-		opacity: 0.5;
-	}
-	}
-	@include large-up {
-		margin: 1.6em 0 2em 2em;
-	}
-}
-#logoText {
-	display:none;
-}
-#logoText:hover {
-	margin:33px;
-	color: $maincolor;
-}
+// #logo {
+// 	width:3.125em;
+// 	margin: 1em 0 1em 1em;	
+// 	@include medium-up {
+// 	width:6.25em;
+// 	margin: 2em 0 2em 2em;	
+// 	transition: all 0.5s ease;
+// 	&:hover {
+// 		opacity: 0.5;
+// 	}
+// 	}
+// 	@include large-up {
+// 		margin: 1.6em 0 2em 2em;
+// 	}
+// }
+// #logoText {
+// 	display:none;
+// }
+// #logoText:hover {
+// 	margin:33px;
+// 	color: $maincolor;
+// }
 
 .main-nav {
 	float:right;
 	display:none;
 	@include medium-up {
 		display:inline-block;
-	
-	margin-top: 3.938em;
+		// margin-top: 3.938em;
 	}
 	li{
 		display: inline;
@@ -48,7 +47,8 @@
 	font-family: $fontfamilythin;
 	font-size: 20px;
 	letter-spacing: 0.220em;
-	color: $navcolor;
+	// color: $navcolor;
+	color: #FFF;
 	transition: all 0.5s ease;
 	&:hover{
 		color: $purple;

@@ -31,6 +31,7 @@ if (isset($_POST['name'])) {
 	<title>Natalie Mastracci</title>
 	<link href="https://fonts.googleapis.com/css?family=Parisienne|Tangerine:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Quicksand" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="prod/css/styles.css">
 
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
@@ -39,9 +40,10 @@ if (isset($_POST['name'])) {
 <body>
 	<h1 class="hidden">title</h1>
 	<div id="container">
+		<div class="triangle"></div>
 		<!-- <div class="initial"></div> -->
 		<nav>
-			<img id="logo" src="images/logo-g.png" alt="Natalie's Logo">
+			<img id="logo" src="images/nlogo-white.svg" alt="Natalie's Logo">
 			<p id="logoText">Natalie Mastracci</p>
 			
 
@@ -72,7 +74,7 @@ if (isset($_POST['name'])) {
 				<h4 id="to-portfolio">Go to <strong>Portfolio &gt;</strong></h4>
 				<h4 id="to-contact" >Keep <strong>in Touch  &gt;</strong></h4>
 			</div>
-			<!-- <img id="eight" src="images/eight-nowhite.png" alt="eight rowing"> -->
+			
 
 			<div id="sub-head">
 				
@@ -152,10 +154,18 @@ if (isset($_POST['name'])) {
 			</div>
 
 			<div class="card">
-				<img  src="images/logo_zou.svg" alt="Zou Lipstick Logo">
+				<img  src="images/logo_zou-bw.svg" alt="Zou Lipstick Logo">
 				<h3>Back End Dev</h3>
-				<p>Tasked with the problem of how to build a secure CMS this admin page has a secure login where users may add subscribers and view their updated inventory. Written with php using a mySQL database.</p>
-				<a href="parker/index.html" target="_blank" rel="noopener">SEE FULL SITE</a>
+				<p>Built a secure CMS that allows resellers of this lipstick company to login as  admin add subscribers and view their updated inventory. Written with php using a relational mySQL database.</p>
+				<!-- <a href="parker/index.html" target="_blank" rel="noopener">SEE FULL SITE</a> -->
+			</div>
+
+			<div class="card">
+				
+				<h1 class=" chattr">chattr</h1>
+				<h3>Front End Dev</h3>
+				<p>A chat app that allows multiple users to log in and talk to one another. Users can see when others log on, log off, and are able to choose their own screen names. Built asyncronously with Express and chat.io API so that users may enjoy real-time messaging.</p>
+				<!-- <a href="parker/index.html" target="_blank" rel="noopener">SEE FULL SITE</a> -->
 			</div>
 			
 			<!-- <div class="card">

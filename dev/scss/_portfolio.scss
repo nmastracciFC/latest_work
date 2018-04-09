@@ -3,23 +3,23 @@
 		padding-top:6.25em;
 }
 .pTitle {
-	
+	// font-family: $fontfamilythin;
 	font-family: $fontfamilythick;
 	font-size: 4em;
 	text-align: center;
 	color: #555;
 	letter-spacing: 2px;
 	@include medium-up {
-		font-family: $fontfamilythin;
-		letter-spacing: 0.4em;
-		margin-right:-0.4em;
+		// font-family: $fontfamilythin;
+		// letter-spacing: 0.4em;
+		// margin-right:-0.4em;
 	}
 	@include large-up {
 		
 		font-size: 60px;
 		
-		letter-spacing: 50px;
-		margin-right:-50px;
+		// letter-spacing: 50px;
+		// margin-right:-50px;
 		margin-bottom: 50px;
 		color: $maincolor;
 	
@@ -317,7 +317,8 @@
 .card {
 	width: 20em;
 	padding: 1.25em;
-	background-color: $maincolor;
+	// background-color: $maincolor;
+	background-color: $deepblue;
 	color: #fff;
 	display: inline-block;
 	overflow:hidden;

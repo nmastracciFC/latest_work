@@ -1,184 +1,186 @@
-#headerBack {
-	width:100%;
-	display:grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(12, 1fr);
-	background-image: url(../../images/sgnm-upped-sm.jpg);
-	background-repeat: no-repeat;
-	@include medium-up {
-		background-image: url(../../images/sgnm-upped-med.jpg);
-	}
-	@include large-up {
-		background-image: url(../../images/sgnm-upped.jpg);
-		background-position:center;
-	}
-}
+// #headerBack {
+// 	width:100%;
+// 	display:grid;
+// 	grid-template-columns: repeat(12, 1fr);
+// 	grid-template-rows: repeat(12, 1fr);
+// 	background-image: url(../../images/sgnm-upped-sm.jpg);
+// 	background-repeat: no-repeat;
+// 	@include medium-up {
+// 		background-image: url(../../images/sgnm-upped-med.jpg);
+// 	}
+// 	@include large-up {
+// 		background-image: url(../../images/sgnm-upped.jpg);
+// 		background-position:center;
+// 	}
+// }
 
-.stay-put {
-	position:absolute;
-}
-#eight {
-	width:24em;
-	grid-column-start:2;
-	grid-column-end:12;
-	grid-row-start:5;
-	grid-row-end:8;
-	@include medium-up {
-		width:40em;
-		grid-column-start:4;
-	}
-	@include large-up {
-		width: 60em;
-		grid-column-start:4;
-		grid-row-start:6;
-	}
-}
+// .stay-put {
+// 	position:absolute;
+// }
+// #eight {
+// 	width:24em;
+// 	grid-column-start:2;
+// 	grid-column-end:12;
+// 	grid-row-start:5;
+// 	grid-row-end:8;
+// 	@include medium-up {
+// 		width:40em;
+// 		grid-column-start:4;
+// 	}
+// 	@include large-up {
+// 		width: 60em;
+// 		grid-column-start:4;
+// 		grid-row-start:6;
+// 	}
+// }
 
-#heading {
-	grid-column-start:2;
-	grid-column-end:9;
-	grid-row-start:1;
-	grid-row-end:5;
+// #heading {
+// 	grid-column-start:2;
+// 	grid-column-end:9;
+// 	grid-row-start:1;
+// 	grid-row-end:5;
 	
 	
-	color: #555;
-	@include medium-up {
-		grid-column-end:6;
+// 	color: #555;
+// 	@include medium-up {
+// 		grid-column-end:6;
 
-	}
-	@include large-up {
-		grid-row-start:2;
+// 	}
+// 	@include large-up {
+// 		grid-row-start:2;
 	
 	
-	}
+// 	}
 
-	h1 {
-		font-size:2em;
-		font-family: $fontfamilythick;
-		display:inline-block;
-		margin-top:0.3em;
-		margin-bottom: 0.3em;
-		@include medium-up {
-			font-size:3em;
-			margin-bottom:0.7em;
-		}
-		@include large-up {
-		font-size: 4.063em;
+// 	h1 {
+// 		font-size:2em;
+// 		font-family: $fontfamilythick;
+// 		display:inline-block;
+// 		margin-top:0.3em;
+// 		margin-bottom: 0.3em;
+
+// 		@include medium-up {
+// 			font-size:3em;
+// 			margin-bottom:0.7em;
+// 		}
+// 		@include large-up {
+// 		font-size: 4.063em;
 		
 		
-		}
-	}
-	h2 {
-		font-size:1.8em;
-		@include large-up {
-		font-family: $fontfamilybody;
-		font-size: 36px;
-		margin-bottom: 20px;
-		letter-spacing: 4.1px;
-		display:inline-block;
-		}
-	}
-	h3{
-		margin-bottom: 1.8em;
-		@include medium-up {
-		font-size: 1.3em;
+// 		}
+// 	}
+// 	h2 {
+// 		font-size:1.8em;
+// 		@include large-up {
+// 		font-family: $fontfamilybody;
+// 		font-size: 36px;
+// 		margin-bottom: 20px;
+// 		letter-spacing: 4.1px;
+// 		display:inline-block;
+// 		}
+// 	}
+// 	h3{
+// 		margin-bottom: 1.8em;
+// 		@include medium-up {
+// 		font-size: 1.3em;
 
-		}
-		@include large-up {
-		font-family: $fontfamilybody;
-		font-size: 1.563em;
-		margin-bottom: 1em;
-	}
+// 		}
+// 		@include large-up {
+// 		font-family: $fontfamilybody;
+// 		font-size: 1.563em;
+// 		margin-bottom: 1em;
+// 	}
 
-	}
-	h4{
-		margin-bottom: 1em;
+// 	}
+// 	h4{
+// 		margin-bottom: 1em;
+// 		color: $blue;
 
-		@include medium-up {
-			font-size: 1.4em;
-		}
+// 		@include medium-up {
+// 			font-size: 1.4em;
+// 		}
 
-		@include large-up {
-		font-family: $fontfamilybody;
-		font-size: 1.7em;
-		margin-bottom: 10px;
-		display:block;
-	}
+// 		@include large-up {
+// 		font-family: $fontfamilybody;
+// 		font-size: 1.7em;
+// 		margin-bottom: 10px;
+// 		display:block;
+// 	}
 
-	}
-	#to-portfolio {
-		cursor: pointer;
-		text-align:right;
-		@include medium-up {
-		transition: all 0.5s ease;
-		margin-bottom:1em;
-		&:hover {
-			color: #000;
-			margin-left: 5px;
-			font-size: 1.75em;
-		}
-	}
-	}
-	#to-contact {
-		text-align:right;
-		cursor: pointer;
-		@include medium-up {
-		transition: all 0.5s ease;
-		&:hover {
-			color: #000;
-			font-size: 1.75em;		}
-	}
-	}
-}
-#sub-head {
-	grid-column-start:6;
-	grid-column-end:12;
-	grid-row-start:6;
-	grid-row-end:12;
-	color: #555;
-	text-align: left;
-	@include medium-up {
-		grid-row-start:7;
-	}
-	@include large-up {
-		grid-column-start:7;
+// 	}
+// 	#to-portfolio {
+// 		cursor: pointer;
+// 		text-align:right;
+// 		@include medium-up {
+// 		transition: all 0.5s ease;
+// 		margin-bottom:1em;
+// 		&:hover {
+// 			color: #000;
+// 			margin-left: 5px;
+// 			font-size: 1.75em;
+// 		}
+// 	}
+// 	}
+// 	#to-contact {
+// 		text-align:right;
+// 		cursor: pointer;
+// 		@include medium-up {
+// 		transition: all 0.5s ease;
+// 		&:hover {
+// 			color: #000;
+// 			font-size: 1.75em;		}
+// 	}
+// 	}
+// }
+// #sub-head {
+// 	grid-column-start:6;
+// 	grid-column-end:12;
+// 	grid-row-start:6;
+// 	grid-row-end:12;
+// 	color: #555;
+// 	text-align: left;
+// 	@include medium-up {
+// 		grid-row-start:7;
+// 	}
+// 	@include large-up {
+// 		grid-column-start:7;
 
-		grid-row-start:8;
-	text-align: left;
-	}
-	h2{
-		font-size:1.5em;
-		font-family: $fontfamilythick;
-		display:inline-block;
-		margin-bottom: 1em;
-		@include medium-up {
-			font-size: 2.3em;
-		}
-		@include large-up {
-		font-family: $fontfamilythick;
-		font-size: 2.8em;
-		margin-bottom: 1.3em;
-	}
-	}
-	h3{
-		font-family: $fontfamilybody;
-		margin-bottom: 1em;
-		@include medium-up {
-			font-size:1.3em;
-		}
-		@include large-up {
+// 		grid-row-start:8;
+// 	text-align: left;
+// 	}
+// 	h2{
+// 		font-size:1.5em;
+// 		font-family: $fontfamilythick;
+// 		display:inline-block;
+// 		margin-bottom: 1em;
+// 		@include medium-up {
+// 			font-size: 2.3em;
+// 		}
+// 		@include large-up {
+// 		font-family: $fontfamilythick;
+// 		font-size: 2.8em;
+// 		margin-bottom: 1.3em;
+// 	}
+// 	}
+// 	h3{
+// 		font-family: $fontfamilybody;
+// 		margin-bottom: 1em;
+// 		@include medium-up {
+// 			font-size:1.3em;
+// 		}
+// 		@include large-up {
 		
-		font-size: 1.5em;
-		margin-bottom: 10px;
-	}
-	}
-	h4 {
-		@include medium-up {
-			font-size:1.3em;
-		}
-		@include large-up {
-		font-family: $fontfamilybody;
-		font-size: 1.5em;
-	}
-}
-}
+// 		font-size: 1.5em;
+// 		margin-bottom: 10px;
+// 	}
+// 	}
+// 	h4 {
+// 		@include medium-up {
+// 			font-size:1.3em;
+// 		}
+// 		@include large-up {
+// 		font-family: $fontfamilybody;
+// 		font-size: 1.5em;
+// 	}
+// }
+// }

@@ -1,5 +1,6 @@
 /* Reset */
 @import url("https://fonts.googleapis.com/css?family=Reem+Kufi");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Quicksand");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,6 +45,10 @@ table {
   border-spacing: 0; }
 
 /* End Reset */
+.chattr {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 8em; }
+
 @font-face {
   font-family: 'mulilight';
   src: url("../../fonts/muli-light-webfont.woff2") format("woff2"), url("../../fonts/muli-light-webfont.woff") format("woff");
@@ -80,34 +85,12 @@ table {
   font-weight: normal;
   font-style: normal; }
 
-#logo {
-  width: 3.125em;
-  margin: 1em 0 1em 1em; }
-  @media only screen and (min-width: 40em) {
-    #logo {
-      width: 6.25em;
-      margin: 2em 0 2em 2em;
-      transition: all 0.5s ease; }
-      #logo:hover {
-        opacity: 0.5; } }
-  @media only screen and (min-width: 60em) {
-    #logo {
-      margin: 1.6em 0 2em 2em; } }
-
-#logoText {
-  display: none; }
-
-#logoText:hover {
-  margin: 33px;
-  color: #555555; }
-
 .main-nav {
   float: right;
   display: none; }
   @media only screen and (min-width: 40em) {
     .main-nav {
-      display: inline-block;
-      margin-top: 3.938em; } }
+      display: inline-block; } }
   .main-nav li {
     display: inline;
     margin-right: 6.25em; }
@@ -122,7 +105,7 @@ table {
     font-family: "Reem Kufi", sans-serif;
     font-size: 20px;
     letter-spacing: 0.220em;
-    color: #b0b0b4;
+    color: #FFF;
     transition: all 0.5s ease; }
     .main-nav a:hover {
       color: #333366;
@@ -196,162 +179,6 @@ table {
     color: #ffffff;
     cursor: pointer; }
 
-#headerBack {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  background-image: url(../../images/sgnm-upped-sm.jpg);
-  background-repeat: no-repeat; }
-  @media only screen and (min-width: 40em) {
-    #headerBack {
-      background-image: url(../../images/sgnm-upped-med.jpg); } }
-  @media only screen and (min-width: 60em) {
-    #headerBack {
-      background-image: url(../../images/sgnm-upped.jpg);
-      background-position: center; } }
-
-.stay-put {
-  position: absolute; }
-
-#eight {
-  width: 24em;
-  grid-column-start: 2;
-  grid-column-end: 12;
-  grid-row-start: 5;
-  grid-row-end: 8; }
-  @media only screen and (min-width: 40em) {
-    #eight {
-      width: 40em;
-      grid-column-start: 4; } }
-  @media only screen and (min-width: 60em) {
-    #eight {
-      width: 60em;
-      grid-column-start: 4;
-      grid-row-start: 6; } }
-
-#heading {
-  grid-column-start: 2;
-  grid-column-end: 9;
-  grid-row-start: 1;
-  grid-row-end: 5;
-  color: #555; }
-  @media only screen and (min-width: 40em) {
-    #heading {
-      grid-column-end: 6; } }
-  @media only screen and (min-width: 60em) {
-    #heading {
-      grid-row-start: 2; } }
-  #heading h1 {
-    font-size: 2em;
-    font-family: "butler_stencilextrabold";
-    display: inline-block;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em; }
-    @media only screen and (min-width: 40em) {
-      #heading h1 {
-        font-size: 3em;
-        margin-bottom: 0.7em; } }
-    @media only screen and (min-width: 60em) {
-      #heading h1 {
-        font-size: 4.063em; } }
-  #heading h2 {
-    font-size: 1.8em; }
-    @media only screen and (min-width: 60em) {
-      #heading h2 {
-        font-family: "Reem Kufi", sans-serif;
-        font-size: 36px;
-        margin-bottom: 20px;
-        letter-spacing: 4.1px;
-        display: inline-block; } }
-  #heading h3 {
-    margin-bottom: 1.8em; }
-    @media only screen and (min-width: 40em) {
-      #heading h3 {
-        font-size: 1.3em; } }
-    @media only screen and (min-width: 60em) {
-      #heading h3 {
-        font-family: "Reem Kufi", sans-serif;
-        font-size: 1.563em;
-        margin-bottom: 1em; } }
-  #heading h4 {
-    margin-bottom: 1em; }
-    @media only screen and (min-width: 40em) {
-      #heading h4 {
-        font-size: 1.4em; } }
-    @media only screen and (min-width: 60em) {
-      #heading h4 {
-        font-family: "Reem Kufi", sans-serif;
-        font-size: 1.7em;
-        margin-bottom: 10px;
-        display: block; } }
-  #heading #to-portfolio {
-    cursor: pointer;
-    text-align: right; }
-    @media only screen and (min-width: 40em) {
-      #heading #to-portfolio {
-        transition: all 0.5s ease;
-        margin-bottom: 1em; }
-        #heading #to-portfolio:hover {
-          color: #000;
-          margin-left: 5px;
-          font-size: 1.75em; } }
-  #heading #to-contact {
-    text-align: right;
-    cursor: pointer; }
-    @media only screen and (min-width: 40em) {
-      #heading #to-contact {
-        transition: all 0.5s ease; }
-        #heading #to-contact:hover {
-          color: #000;
-          font-size: 1.75em; } }
-
-#sub-head {
-  grid-column-start: 6;
-  grid-column-end: 12;
-  grid-row-start: 6;
-  grid-row-end: 12;
-  color: #555;
-  text-align: left; }
-  @media only screen and (min-width: 40em) {
-    #sub-head {
-      grid-row-start: 7; } }
-  @media only screen and (min-width: 60em) {
-    #sub-head {
-      grid-column-start: 7;
-      grid-row-start: 8;
-      text-align: left; } }
-  #sub-head h2 {
-    font-size: 1.5em;
-    font-family: "butler_stencilextrabold";
-    display: inline-block;
-    margin-bottom: 1em; }
-    @media only screen and (min-width: 40em) {
-      #sub-head h2 {
-        font-size: 2.3em; } }
-    @media only screen and (min-width: 60em) {
-      #sub-head h2 {
-        font-family: "butler_stencilextrabold";
-        font-size: 2.8em;
-        margin-bottom: 1.3em; } }
-  #sub-head h3 {
-    font-family: "Reem Kufi", sans-serif;
-    margin-bottom: 1em; }
-    @media only screen and (min-width: 40em) {
-      #sub-head h3 {
-        font-size: 1.3em; } }
-    @media only screen and (min-width: 60em) {
-      #sub-head h3 {
-        font-size: 1.5em;
-        margin-bottom: 10px; } }
-  @media only screen and (min-width: 40em) {
-    #sub-head h4 {
-      font-size: 1.3em; } }
-  @media only screen and (min-width: 60em) {
-    #sub-head h4 {
-      font-family: "Reem Kufi", sans-serif;
-      font-size: 1.5em; } }
-
 #portfolio {
   clear: both;
   padding-top: 6.25em; }
@@ -362,16 +189,9 @@ table {
   text-align: center;
   color: #555;
   letter-spacing: 2px; }
-  @media only screen and (min-width: 40em) {
-    .pTitle {
-      font-family: "Reem Kufi", sans-serif;
-      letter-spacing: 0.4em;
-      margin-right: -0.4em; } }
   @media only screen and (min-width: 60em) {
     .pTitle {
       font-size: 60px;
-      letter-spacing: 50px;
-      margin-right: -50px;
       margin-bottom: 50px;
       color: #555555;
       margin-top: 70px; } }
@@ -593,7 +413,7 @@ table {
 .card {
   width: 20em;
   padding: 1.25em;
-  background-color: #555555;
+  background-color: #1f3350;
   color: #fff;
   display: inline-block;
   overflow: hidden;
@@ -683,6 +503,18 @@ table {
   font-size: 3em;
   color: #ccc;
   margin-top: 2em; }
+
+.triangle {
+  position: absolute;
+  z-index: -1;
+  border-style: solid;
+  border-width: 50vh 100vw 0 0;
+  border-color: #1f3350 transparent transparent transparent;
+  top: 0; }
+
+#logo {
+  width: 10em;
+  padding: 2em; }
 
 .hidden {
   display: none; }
