@@ -1,0 +1,49 @@
+.hidden {
+	display:none;
+}
+.heightPlease {
+	height:100px;
+}
+
+body {
+	background-color:#aed3cc;
+}
+/*.parallax {
+	position:relative;
+	background-image: url(../images/scapeFive.svg);
+	width:1366px;
+	height: 768px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}*/
+
+.parallax {
+	position:relative;
+	/*background-image: url(../images/scapeFive.svg);*/
+	background-color: #aed3cc;
+	width:1366px;
+	height: 1366px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	margin:0 auto;
+
+}
+#seven, #six, #five, #four, #three, #two, #one {
+	position:absolute;
+	width: 1366px;
+	top:0;
+	margin: 0 auto;
+	transform: translateY(125px);
+}
+
+#six {
+	transform: translateY(350px);
+	opacity:0.9;
+}
+

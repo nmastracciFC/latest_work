@@ -1,0 +1,170 @@
+/*@charset "UTF-8"*/
+
+.hidden {
+	display:none;
+}
+
+body {
+	font-family: "tex gyre adventor", sans-serif;
+	color: #66676b;
+	font-size: 14px;
+}
+h2 {
+	font-family: "tex gyre adventor", sans-serif;
+	color: #2e2e2f;
+	font-size: 40px;
+	margin: 0 auto;
+	text-align: center;
+	/*margin: 20px;*/
+}
+
+#container {
+	width:1300px;
+	margin:0 auto;
+}
+#header {
+	/*width:642px;*/
+	width:600px;
+	margin: 0 auto;
+	margin-bottom: 235px;
+}
+#fanshaweLogo {
+	/*width:242px;*/
+	width:300px;
+	margin: 0 auto;
+	margin-bottom:50px;
+	margin-top:180px;
+	display:block;
+}
+.programTitle {
+	color: #2e2e2f;
+	font-family: "tex gyre adventor bold", sans-serif;
+	font-size: 145px;
+	margin: 0 auto;
+	text-align: center; 
+}
+
+#scrollText {
+	font-size:40px;
+	text-align: center; 
+	opacity:0;
+}
+#scrollArrow{
+	/*width:350px;*/
+	/*width:600px;*/
+	margin:0 auto;
+	margin-top: 50px;
+	opacity:0;
+}
+
+#avgStudent {
+	width:1116px;
+	margin:0 auto;
+
+}
+#avgStudent div {
+	display:inline-block;
+	vertical-align: top;
+	
+}
+#studentGraphs {
+	width: 245px;
+	margin-top:80px;
+	
+}
+#studentGraphs h4 {
+	margin-bottom: 20px;
+	font-family: "tex gyre adventor", sans-serif;
+	color: #66676b;
+	font-size: 14px;
+}
+#experience{
+	width:243px;
+	text-align: center; 
+	margin-bottom: 60px;
+
+}
+#genderPercentage {
+	text-align: center; 
+	width:243px;
+	margin-top: 30px;
+	font-size: 70px;
+	
+}
+
+#byGender {
+	 
+	
+}
+#female {
+	width:400px;
+	margin-right: 20px;
+	vertical-align: top;
+	opacity: 0;
+	margin-top: 200px;
+
+}
+#male {
+	width:424px;
+	float:right;
+	opacity: 0;
+	margin-top: 200px;
+}
+.natalie {
+	opacity:0.5;
+	
+}
+#avgAge {
+	width:234px;
+	text-align: center; 
+}
+#postGrad {
+	margin-top: 50px;
+
+	/*border-top: 5px solid #b30105;*/
+}
+
+.heading {
+	margin-top: 200px;
+}
+#placeGradGraphs {
+	display:inline-block;
+	width:1000px;
+	
+
+
+}
+.progressMeter {
+	
+}
+.gradGraphText{
+	color: #cccccc;
+}
+.centered {
+	margin:auto;
+}
+#map {
+	background-color: #ffffff;
+	width:800px;
+	margin:0 auto;
+	top:100px;
+	
+
+}
+.country{
+	fill:#cccccc;
+	stroke:#999999;
+	stroke-width:0.5;
+}
+.selected {
+	fill: #706F6F;
+}
+#location {
+	margin-top: 50px;
+	z-index: 1
+	/*border-top: 5px solid #b30105;*/
+}
+#platforms {
+	margin-top: 50px;
+	/*border-top: 5px solid #b30105;*/
+}

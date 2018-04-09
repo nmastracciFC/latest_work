@@ -1,0 +1,219 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* End Reset */
+.hidden {
+  display: none; }
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+#container {
+  width: 1200px;
+  margin: 0 auto; }
+
+#backImg {
+  position: absolute; }
+
+#logoAll {
+  width: 500px;
+  display: inline; }
+
+#logo {
+  width: 100px;
+  margin: 30px 0 0 30px; }
+
+#logoText {
+  display: inline;
+  font-family: "Acumin Pro Condensed", Acumin Pro Condensed;
+  font-size: 25px;
+  letter-spacing: 0.220em;
+  margin-left: 27px;
+  margin-bottom: 30px;
+  transition: margin 0.3s;
+  transition-timing-function: ease; }
+  #logoText :hover {
+    margin: 33px; }
+
+.main-nav {
+  float: right;
+  margin-top: 63px; }
+  .main-nav li {
+    display: inline;
+    margin-right: 100px;
+    transition: border-bottom 0.3s;
+    transition: padding 0.3s;
+    transition-timing-function: ease; }
+  .main-nav li:hover {
+    border-bottom: 2px solid #000;
+    padding: 15px; }
+  .main-nav a {
+    text-decoration: none;
+    font-family: "Acumin Pro Condensed", Acumin Pro Condensed;
+    font-size: 20px;
+    letter-spacing: 0.220em;
+    color: #000; }
+
+#blurb {
+  width: 600px;
+  display: inline;
+  float: left; 
+  margin-bottom:200px;}
+  #blurb h1 {
+    font-family: "Open Sans", Open Sans;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 250px 0 65px 170px;
+    line-height: 80px; }
+  #blurb h4 {
+    font-family: "Open Sans", Open Sans;
+    font-size: 25px;
+    margin: 80px 0 0 170px;
+    width: 380px;
+    line-height: 35px; }
+    #blurb h4 a:hover {
+      border-bottom: 1px solid #000; }
+
+#rightSide {
+  width: 550;
+  display: inline;
+  clear: both;
+  float: right; }
+
+footer {
+  background-color: #fff;
+  margin-top: 150px;
+  clear: both; }
+
+.footer-nav {
+  margin-left: 50px;
+  background-color: #fff;
+  padding: 20px; }
+  .footer-nav li {
+    display: inline;
+    margin-right: 40px; }
+  .footer-nav a {
+    text-decoration: none;
+    font-family: "Acumin Pro Condensed", Acumin Pro Condensed;
+    font-size: 20px;
+    letter-spacing: 0.220em;
+    color: #000; }
+.cright{
+  float:right;
+  font-size:16px;
+  font-family: "Acumin Pro Condensed", Acumin Pro Condensed; }
+
+#gameChoice {
+  font-family: "Open Sans", Open Sans;
+  color: #dbdbdb;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 300px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#option1, #option2 {
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  font-family: "Acumin Pro Condensed", Acumin Pro Condensed;
+  font-size: 30px;
+  margin-top: 40px;
+  letter-spacing: 0.05em;
+  color: #e56a6a;
+  margin-left: 250px;
+  transition: border-bottom 0.3s;
+  transition: transform(scale) 0.3s;
+  transition-timing-function: ease; }
+
+#option1:hover, #option2:hover {
+  border-bottom: 2px solid #dbdbdb;
+  transform: scale(1.5); }
+
+#option2 {
+  float: right;
+  color: #76df6b;
+  margin-left: 0px;
+  margin-right: 250px; }
+
+#cform {
+
+}
+
+.centerd-content {
+  width:500px;
+  margin-top: 150px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+.title {
+  font-family: "Open Sans", Open Sans;
+  color: #dbdbdb;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.form-mat{
+  width:300px;
+  height: 20px;
+  margin: 15px auto 15px 100px;
+  border-radius: 10px;
+}
+
+.form-mat:last-child{
+  height: 100px;
+  
+}
+.space-me {
+  margin-top: 150px;
+}
+
+/*# sourceMappingURL=styles.css.map */

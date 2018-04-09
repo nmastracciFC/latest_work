@@ -1,0 +1,593 @@
+div,p,body,header,footer,section,article,nav { 
+margin: 0; 
+padding: 0; 
+}	
+
+h1 {
+	font-family: "Lao MN", Lao MN;
+	color: #090947;
+	font-size: 40px;
+	text-align: center;
+}
+
+img { 
+border: none; 
+margin: 0; 
+padding: 0; 
+}
+
+body {
+	font-family: "Arial Narrow", Arial Narrow;
+	font-size: 12px;
+	color: #090947;
+}
+
+
+a:link, a:visited { 
+text-decoration:none; 
+color: #090947;	
+}
+
+.hidden
+{
+	display: none;
+} 
+
+#siteContainer {
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+#mainHeader {
+	margin-top: 40px;
+	padding-bottom: 40px;
+	overflow: hidden; 
+}
+
+#logo{
+	width: 300px;
+	float: left;
+}
+
+#mainNav {
+	font-family: "Lao MN", Lao MN;
+	color: #090947;
+	float: right;
+	width: 620px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #090947;
+    padding: 10px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#mainNav ul
+{
+	margin-top: 30px;
+	float: right;
+	list-style-type: none;
+	padding: 0;
+    overflow: hidden;
+    width:100%;
+
+}
+
+#mainNav ul li {	
+	font-size: 18px;
+	display: inline;
+	cursor: pointer;
+	margin-left: 20px;
+
+}
+
+#mainNav ul li
+{
+	color: #090947;
+	transition: all 1s ease;
+}
+
+#mainNav ul li:hover {
+
+	padding: 10px;
+	margin: 10px;
+	transition: all 0.7s ease;
+}
+
+.selected
+{
+	padding: 5px 0px 5px 0px;
+	background-color: #ddeff7;
+}
+
+
+.promo {
+	margin-top: 40px;
+	width: 965px;
+	overflow: hidden; 
+	padding-bottom: 40px;
+}
+
+#promoAbout {
+	margin-top: 40px;
+	width: 965px;
+	height: 493px;
+	overflow: hidden; 
+	padding-bottom: 40px;
+}
+
+#promoImgAbout {
+	width: 965px;
+	height:583px;
+}
+
+
+#promoImg {
+	width: 964px;
+	height:505px;
+	background-image: url(../images/sg_breeze_new3.jpg);
+}
+
+#promoText {
+	float: left;
+	margin-top: 75px;
+	margin-left: 17px;
+	text-align: left;
+}
+
+#promoText h1 {
+	text-shadow: 0 0 50px white;
+}
+
+#promoImgBlogOne {
+	width: 964px;
+	height:642px;
+	background-image: url(../images/jm_bench-first.jpg);
+}
+
+#promoImgBlogTwo {
+	width: 964px;
+	height:564px;
+	background-image: url(../images/sg_table-b.jpg);
+}
+
+#promoImgBlogThree {
+	width: 964px;
+	height:643px;
+	background-image: url(../images/sb_bench-first.jpg);
+}
+
+.blogBoxL h2 {
+	z-index: 10;
+	font-size: 37px;
+	font-family: "Lao MN", Lao MN;
+	margin-left: 202px;
+	margin-bottom: 0px;
+	padding-top: 84px;
+}
+
+.blogBoxL p {
+	z-index: 20;
+	font-size: 20px;
+	font-family: "Lao MN", Lao MN;
+	margin-left: 70px;
+	width: 285px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align: right;
+}
+.sideR {
+	float:right;
+}
+
+.blogBoxR h2 {
+	z-index: 10;
+	font-size: 37px;
+	font-family: "Lao MN", Lao MN;
+	margin-right: 202px;
+	margin-bottom: 0px;
+	padding-top: 84px;
+}
+
+.blogBoxR p {
+	z-index: 20;
+	font-size: 20px;
+	font-family: "Lao MN", Lao MN;
+	margin-right: 70px;
+	width: 285px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align: left;
+}
+#homeInfo {
+	width:922px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+
+.homeDesc {
+	float:left;
+	width: 200px;
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.homeDesc h2 {
+	text-align: right;
+	font-size: 26px;
+	font-family: "Lao MN", Lao MN;
+	margin:0;
+	padding:0;
+}
+.homeDesc p {
+	text-align: right;
+	font-size: 20px;
+	font-family: "Arial Narrow", Arial Narrow;
+}
+
+.homeDescLast {
+	float:right;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#productInfo {
+	width:960px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+
+.productDesc {
+	float:left;
+	width: 200px;
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#productDesc h2 {
+	text-align: right;
+	font-size: 26px;
+	font-family: "Lao MN", Lao MN;
+	margin:0;
+	padding:0;
+}
+#productDesc p {
+	text-align: right;
+	font-size: 20px;
+	font-family: "Arial Narrow", Arial Narrow;
+}
+
+.productDescLast {
+	float:right;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.overlay {
+	position: absolute;
+	top: 889px;
+	width:200px;
+	height: 300px;
+	opacity: 0;
+	
+}
+.overlay h3 {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 110px;
+	color: white;
+}
+.overlay p {
+	text-align: center;
+	color: white;
+}
+.overlay:hover {
+	background-color: rgba(9, 9, 71, 0.5);
+	opacity: 1;
+}
+
+.overlayB {
+	position: absolute;
+	top: 1232px;
+	width:200px;
+	height: 300px;
+	opacity: 0;
+	
+}
+.overlayB h3 {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 110px;
+	color: white;
+}
+.overlayB p {
+	text-align: center;
+	color: white;
+}
+.overlayB:hover {
+	background-color: rgba(9, 9, 71, 0.5);
+	opacity: 1;
+}
+.overlayC {
+	position: absolute;
+	top: 1574px;
+	width:200px;
+	height: 300px;
+	opacity: 0;
+	
+}
+.overlayC h3 {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 110px;
+	color: white;
+}
+.overlayC p {
+	text-align: center;
+	color: white;
+}
+.overlayC:hover {
+	background-color: rgba(9, 9, 71, 0.5);
+	opacity: 1;
+}
+.aboutDesc {
+	float:left;
+	width: 280px;
+	text-align: right;
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#aboutDescL h2 {
+	text-align: right;
+	font-size: 30px;
+	font-family: "Lao MN", Lao MN;
+	margin:0;
+	padding:0;
+}
+#aboutDescL p {
+	text-align: right;
+	font-size: 20px;
+	font-family: "Arial Narrow", Arial Narrow;
+}
+
+#aboutDescC h2 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Lao MN", Lao MN;
+	margin:0;
+	padding:0;
+}
+#aboutDescC p {
+	text-align: center;
+	font-size: 20px;
+	font-family: "Arial Narrow", Arial Narrow;
+}
+
+.aboutDescLast {
+	float:right;
+	width: 280px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.aboutDescLast h2 {
+	text-align: left;
+	font-size: 30px;
+	font-family: "Lao MN", Lao MN;
+	margin:0;
+	padding:0;
+}
+.aboutDescLast p {
+	text-align: left;
+	font-size: 20px;
+	font-family: "Arial Narrow", Arial Narrow;
+}
+
+#mainFooter {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	float:left;
+}
+
+#footerNav {
+	float: left;
+	width: 600px;
+	height:30px;
+}
+
+#footerNav ul {
+	font-family: "Lao MN", Lao MN;
+	float: left;
+	list-style-type: none;
+	padding: 0;
+}
+
+#footerNav ul li {	
+	font-size: 20px;
+	list-style: none;
+	display: inline;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+#copyRight {
+	float: right;
+	width: 320px;
+	font-size: 14px;
+}
+
+/*ANIMATIONS*/
+.wipeIn {
+	animation: wipeIn 1.3s;
+
+}
+
+@keyframes wipeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.wipeInSecond {
+	animation: wipeIn 2s;
+}
+
+@keyframes wipeIn {
+  0% {opacity: 0;}
+  30% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.wipeInThird {
+	animation: wipeIn 3s;
+}
+
+@keyframes wipeIn {
+  0% {opacity: 0;}
+  60% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+
+.wipeInFourth {
+	animation: wipeIn 4s;
+
+}
+
+@keyframes wipeIn {
+  30% {opacity: 0;}
+  90% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+
+.wipeInAbout {
+	animation: wipeIn 2s;
+}
+
+@keyframes wipeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.wipeInAboutSecond {
+	animation: wipeIn 4s;
+}
+
+@keyframes wipeIn {
+  0% {opacity: 0;}
+  30% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+#contactBox {
+	width:964px;
+	height: 642px;
+	background-image: url(../images/contact_jm_seat.jpg);
+	margin-top: 50px;
+}
+
+#contactBox h2 {
+	z-index: 10;
+	font-size: 37px;
+	font-family: "Lao MN", Lao MN;
+	margin-left: 42px;
+	margin-bottom: 0px;
+}
+
+#contactBox h3 {
+	z-index: 20;
+	font-size: 37px;
+	font-family: "Lao MN", Lao MN;
+	margin-left: 250px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#formBox {
+	width:330px;
+	height:445px;
+	padding-top: 25px;
+	z-index: 5;
+}
+
+
+.formstyling {
+  color:#090947;
+  font-family: 'Arial Narrow', Arial Narrow;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #FBFBFB;
+  padding: 13px 13px 13px 13px;
+  margin-bottom: 10px;
+  width:100%;
+  box-sizing: border-box;
+  border: 3px solid #090947;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+#sendbutton {
+  width: 100%;
+  border: #090947 solid 4px;
+  background-color: #ffffff;
+  color:#090947;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:-4px;
+  font-weight:500;
+}
+
+#sendbutton:hover{
+  color: #ffffff;
+}
+
+#galleryHeader {
+	margin-top: 40px;
+	width: 964px;
+	height: 642px;
+	overflow: hidden; 
+}
+
+#galleryImg {
+	width: 964px;
+	height:642px;
+	background-image: url(../images/header_gallery-first.jpg);
+}
+
+#galleryText {
+	float: left;
+	margin-top: 65px;
+	margin-left: 31px;
+	text-align: left;
+}
