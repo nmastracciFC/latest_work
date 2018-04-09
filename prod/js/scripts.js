@@ -109,7 +109,7 @@ function organize() {
   let headingH1 = document.querySelector("#heading h1");
   let headingH3 = document.querySelector("#heading h3");
   let headingH4 = document.querySelectorAll("#heading h4");
-  let eight = document.querySelector("#eight");
+  // let eight = document.querySelector("#eight");
   let subHeadH2 = document.querySelector("#sub-head h2");
   let subHeadH3 = document.querySelector("#sub-head h3");
   let subHeadH4 = document.querySelector("#sub-head h4");
@@ -121,7 +121,7 @@ function organize() {
   TweenLite.set(subHeadH2, {opacity:0});
   TweenLite.set(subHeadH3, {opacity:0});
   TweenLite.set(subHeadH4, {opacity:0});
-  TweenLite.set(eight, {opacity:0});
+  // TweenLite.set(eight, {opacity:0});
 
   const tl = new TimelineLite();
 
@@ -133,7 +133,7 @@ function organize() {
     .to(subHeadH2, 0.7, {opacity:1, y:-50,  ease:Power2.easeOut},'-=0.3')
     .to(subHeadH3, 0.7, {opacity:1, y:-50, ease:Power2.easeOut},'-=0.3')
     .to(subHeadH4, 0.7, {opacity:1, y:-50, ease:Power2.easeOut},'-=0.3')
-    .to(eight, 1, {opacity:1, ease:Power2.easeIn},'-=0.3');
+    // .to(eight, 1, {opacity:1, ease:Power2.easeIn},'-=0.3');
 
 
 

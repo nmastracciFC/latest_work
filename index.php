@@ -72,7 +72,7 @@ if (isset($_POST['name'])) {
 				<h4 id="to-portfolio">Go to <strong>Portfolio &gt;</strong></h4>
 				<h4 id="to-contact" >Keep <strong>in Touch  &gt;</strong></h4>
 			</div>
-			<img id="eight" src="images/eight-nowhite.png" alt="eight rowing">
+			<!-- <img id="eight" src="images/eight-nowhite.png" alt="eight rowing"> -->
 
 			<div id="sub-head">
 				
