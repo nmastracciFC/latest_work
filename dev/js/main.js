@@ -106,7 +106,7 @@ toBox.addEventListener("click", getImage, false);
 
 function organize() {
   let nav = document.querySelector("nav");
-  let headingH1 = document.querySelector("#heading h1");
+  let headingH1 = document.querySelectorAll("#heading h1");
   let headingH3 = document.querySelector("#heading h3");
   let headingH4 = document.querySelectorAll("#heading h4");
   // let eight = document.querySelector("#eight");
@@ -159,7 +159,7 @@ function organize() {
 }
 
 
-window.addEventListener("load", organize, false);
+// window.addEventListener("load", organize, false);
   
 
 var dev = document.querySelector("#development"),

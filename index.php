@@ -40,15 +40,9 @@ if (isset($_POST['name'])) {
 <body>
 	<h1 class="hidden">title</h1>
 	<div id="container">
-		<div class="triangle"></div>
 		<!-- <div class="initial"></div> -->
 		<nav>
-			<img id="logo" src="images/nlogo-white.svg" alt="Natalie's Logo">
-			<p id="logoText">Natalie Mastracci</p>
-			
-
-			
-
+			<img id="logo" src="images/logo-g.png" alt="Natalie's Logo">
 			<div class="social">
 				<a href="https://www.instagram.com/nmastracci/" target="_blank" rel="noopener"><img class="instagram" src="images/social-instagram.png" alt="instagram logo"></a>	
 				
@@ -74,7 +68,7 @@ if (isset($_POST['name'])) {
 				<h4 id="to-portfolio">Go to <strong>Portfolio &gt;</strong></h4>
 				<h4 id="to-contact" >Keep <strong>in Touch  &gt;</strong></h4>
 			</div>
-			
+			<img id="eight" src="images/eight-nowhite.png" alt="eight rowing">
 
 			<div id="sub-head">
 				

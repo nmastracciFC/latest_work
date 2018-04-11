@@ -11,4 +11,35 @@
 #logo {
 	width: 10em;
 	padding: 2em;
+	padding-top: 4em;
+}
+
+#headerBack {
+	#heading {
+		margin-top:5em;
+		h1 {
+			font-size: 3em;
+			font-family:$fontfamilythick;
+			color: $maincolor;
+			text-align: right;
+			margin-right: 1em;
+
+		}
+		h3 {
+			font-family: $fontfamilythin;
+			font-size: 1em;
+			color: $maincolor;
+			display:inline-block;
+			padding: 1em 2em 1em 10em;
+			// text-align: right;
+
+		}
+		h4 {
+			font-family: $fontfamilythin;
+			font-size: 1em;
+			color: $maincolor;
+			// display:inline-block;
+			padding: 1em 2em 1em 10em;
+		}
+	}
 }

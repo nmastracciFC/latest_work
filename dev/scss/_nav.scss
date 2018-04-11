@@ -1,25 +1,18 @@
-// #logo {
-// 	width:3.125em;
-// 	margin: 1em 0 1em 1em;	
-// 	@include medium-up {
-// 	width:6.25em;
-// 	margin: 2em 0 2em 2em;	
-// 	transition: all 0.5s ease;
-// 	&:hover {
-// 		opacity: 0.5;
-// 	}
-// 	}
-// 	@include large-up {
-// 		margin: 1.6em 0 2em 2em;
-// 	}
-// }
-// #logoText {
-// 	display:none;
-// }
-// #logoText:hover {
-// 	margin:33px;
-// 	color: $maincolor;
-// }
+#logo {
+	width:3.125em;
+	margin: 1em 0 1em 1em;	
+	@include medium-up {
+	width:6.25em;
+	margin: 2em 0 2em 2em;	
+	transition: all 0.5s ease;
+	&:hover {
+		opacity: 0.5;
+	}
+	}
+	@include large-up {
+		margin: 1.6em 0 2em 2em;
+	}
+}
 
 .main-nav {
 	float:right;
