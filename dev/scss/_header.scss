@@ -23,6 +23,7 @@
 	grid-column-end:12;
 	grid-row-start:5;
 	grid-row-end:8;
+	opacity: 0.5;
 	@include medium-up {
 		width:40em;
 		grid-column-start:4;

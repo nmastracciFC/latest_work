@@ -216,7 +216,8 @@ table {
   grid-column-start: 2;
   grid-column-end: 12;
   grid-row-start: 5;
-  grid-row-end: 8; }
+  grid-row-end: 8;
+  opacity: 0.5; }
   @media only screen and (min-width: 40em) {
     #eight {
       width: 40em;
@@ -586,6 +587,7 @@ table {
   width: 20em;
   padding: 1.25em;
   background-color: #1f3350;
+  border-radius: 0.8em;
   color: #fff;
   display: inline-block;
   overflow: hidden;

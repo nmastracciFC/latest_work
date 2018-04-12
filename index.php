@@ -150,8 +150,8 @@ if (isset($_POST['name'])) {
 			<div class="card">
 				<img  src="images/logo_zou-bw.svg" alt="Zou Lipstick Logo">
 				<h3>Back End Dev</h3>
-				<p>Built a secure CMS that allows resellers of this lipstick company to login as  admin add subscribers and view their updated inventory. Written with php using a relational mySQL database.</p>
-				<!-- <a href="parker/index.html" target="_blank" rel="noopener">SEE FULL SITE</a> -->
+				<p>A secure CMS that allows resellers of this lipstick brand to login as admin, add subscribers and view their updated inventory. Server-side work done with php using a relational mySQL database.</p>
+				<a href="/zou/case-study.php" target="_blank" rel="noopener">SEE FULL SITE</a>
 			</div>
 
 			<div class="card">
