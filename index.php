@@ -116,14 +116,17 @@ if (isset($_POST['name'])) {
 			<div class="center">
 			<!-- CARDS BEGIN -->
 			<div class="card">
+				<img src="images/hrd_mockup_laptop.jpg" alt=" hrd project mockup">
 				<img class="data-ref" src="images/logo_hrd-white.png" alt="HR Downloads">
 				<h3>Back End Dev</h3>
 				<p>Working on a team of three to create the Time and Attendance module that will fit into HRDownload's greater product. This app will use laravel--with eloquent models and migrations--as well as vue.js components.</p>
 				<p>The module is being created for multiple users with different levels of access to features. Managers will be able to create, set and assign schedules and Employees will be able to see their schedule and request time off. Daily scrum, weekly sprints and frequent code review will see that this product is complete in early April</p>
 				<span class="to-box" id="8">SEE THE TEAM</span>
 			</div>
+			
 
 			<div class="card">
+				<img src="images/discover_mockup_laptop.jpg" alt="ledc mockup">
 				<h1 class="summerLEDC">#discoverldnont</h1>
 				<h3>Back End Dev</h3>
 				<p>In three weeks, without prior knowledge of php or MVC, our team of two delivered this mobile-first web app for the LEDC's treasure hunt contest. Through client meetings, our team settled on Code Igniter and core PHP with a mySQL database for the back-end. The front-end uses foundation to create the responsive environment.</p>
@@ -132,26 +135,28 @@ if (isset($_POST['name'])) {
 			</div>
 
 			<div class="card">
+				<img src="images/parallax_mockup_laptop.jpg" alt="parallax mockup">
 				<h1 class="summerLEDC">Parallax Exercise</h1>
 				<h3>Front End Dev</h3>
 				<p>A study in the illusion of depth. A multi-layered scene was created in Adobe Illustrator. The different layers were exported as SVGs and absolutely positioned over one another. Then each picture's speed of scroll was altered to move at different individual percentages of the window's pageYOffset.</p>
 				<a href="parallax/index.html" target="_blank" rel="noopener">SEE FULL SITE</a>
 			</div>
 
-			
-
-				<div class="card">
+			<div class="card">
+				<img src="images/parker_mockup_laptop.jpg" alt="parker mockup laptop">
 				<img class="data-ref" src="images/logo_parker-white.svg" alt="Parker Clothing Logo">
 				<h3>Front End Dev</h3>
 				<p>With javascript turned off in the browser this site still works seamlessly.  Developed purely with HTML and CSS this website serves as a tribute to CSS3 transitions. Illustrator and Photoshop were used to create all graphic content.</p>
 				<a href="parker/index.html" target="_blank" rel="noopener">SEE FULL SITE</a>
 			</div>
 
+			
+
 			<div class="card">
 				<img  src="images/logo_zou-bw.svg" alt="Zou Lipstick Logo">
 				<h3>Back End Dev</h3>
 				<p>A secure CMS that allows resellers of this lipstick brand to login as admin, add subscribers and view their updated inventory. Server-side work done with php using a relational mySQL database.</p>
-				<a href="/zou/case-study.php" target="_blank" rel="noopener">SEE FULL SITE</a>
+				<!-- <a href="/zou/case-study.php" target="_blank" rel="noopener">SEE FULL SITE</a> -->
 			</div>
 
 			<div class="card">
